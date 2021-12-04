@@ -101,7 +101,7 @@ streamlink_install () {
     message 'PIP3: Installing Streamlink.' 'info'
     pip3 install --no-cache-dir streamlink
     message 'PIP3: Installing YouTube-DL.' 'info'
-    pip3 install --no-cache-dir yt-dtp
+    pip3 install --no-cache-dir yt-dlp
   else
     message 'PIP3: Critical error. pip3 should be installed but is not.' 'error'
   fi
